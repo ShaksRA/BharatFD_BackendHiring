@@ -63,7 +63,7 @@ Before starting, ensure that you have the following installed:
 
 ### Docker Deployment
 
-Run the entire stack using Docker Compose:
+You can also deploy the application using Docker by running the following command:
 
 ```bash
 docker compose up --build
@@ -116,3 +116,12 @@ Access the FAQ editor interface at:
 http://localhost:4000/
 ```
 
+## Deployment
+
+The application has been deployed on an AWS EC2 instance using GitHub Actions. You can access the live version at:
+
+```plaintext
+http://15.206.191.142:4000/
+```
+
+Please note that the IP address above is the **public IPv4 address** of the EC2 instance, which is required to access the application externally.
